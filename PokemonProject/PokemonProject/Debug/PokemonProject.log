@@ -1,0 +1,23 @@
+﻿  Game.cpp
+C:\Users\hatme\Documents\Programming\C++\Projects\PokemonCPlusPlus\PokemonProject\PokemonProject\Game.cpp(17,10): warning C4101: 'options': unreferenced local variable
+C:\Users\hatme\Documents\Programming\C++\Projects\PokemonCPlusPlus\PokemonProject\PokemonProject\Game.cpp(493,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\hatme\Documents\Programming\C++\Projects\PokemonCPlusPlus\PokemonProject\PokemonProject\Game.cpp(494,33): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\hatme\Documents\Programming\C++\Projects\PokemonCPlusPlus\PokemonProject\PokemonProject\Game.cpp(497,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\hatme\Documents\Programming\C++\Projects\PokemonCPlusPlus\PokemonProject\PokemonProject\Game.cpp(498,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\hatme\Documents\Programming\C++\Projects\PokemonCPlusPlus\PokemonProject\PokemonProject\Game.cpp(508,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\hatme\Documents\Programming\C++\Projects\PokemonCPlusPlus\PokemonProject\PokemonProject\Game.cpp(509,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Main.cpp
+C:\Users\hatme\Documents\Programming\C++\Projects\PokemonCPlusPlus\PokemonProject\PokemonProject\Game.cpp(715,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  MoveData.cpp
+  MoveDex.cpp
+  Pokedex.cpp
+  Pokemon.cpp
+  PokemonData.cpp
+  tinyxml2.cpp
+  Trainer.cpp
+  TypeData.cpp
+  Generating Code...
+C:\Users\hatme\Documents\Programming\C++\Projects\PokemonCPlusPlus\PokemonProject\PokemonProject\Main.cpp(11,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hatme\Documents\Programming\C++\Projects\PokemonCPlusPlus\PokemonProject\PokemonProject\Pokemon.cpp(241): warning C4715: 'Pokemon::afflictStatus': not all control paths return a value
+C:\Users\hatme\Documents\Programming\C++\Projects\PokemonCPlusPlus\PokemonProject\PokemonProject\Game.h(158): warning C4715: 'StatMultipliers::modStat': not all control paths return a value
+  PokemonProject.vcxproj -> C:\Users\hatme\Documents\Programming\C++\Projects\PokemonCPlusPlus\PokemonProject\Debug\PokemonProject.exe
