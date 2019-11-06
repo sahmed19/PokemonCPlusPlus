@@ -450,7 +450,6 @@ bool Game::battleTrainer(Trainer* player, Trainer* opponent)
 						allyFaster = (rand() % 2) == 0;
 					}
 				}
-				
 
 				if (allyFaster) {
 					damageCalculator(allyPokemon, foePokemon, allyMove, &allyMultipliers, &foeMultipliers);
@@ -491,7 +490,6 @@ bool Game::damageCalculator(Pokemon* attacker,
 	int finalDefenderSpecialDefense = defender->getSpecialDefense() * defenderMults->getSPDMod();
 	float finalDefenderEvasiveness = defenderMults->getEVAMod();
 
-
 	//CHECK FOR ACCURACY
 	bool accuracyCheck = ((rand() % 100) * (finalAttackerAccuracy / finalDefenderEvasiveness)) > move->getAccuracy();
 	bool secondaryEffectHits = (rand() % 100) < move->getAdditionalEffectChance();
@@ -527,14 +525,10 @@ bool Game::damageCalculator(Pokemon* attacker,
 	float typeEffectiveness = defender->getTypeEffectivenessAgainst(move->getMoveType());
 	float other = 1.0f;
 
-
-	
 	//MOVE HIT!
 
 	float modifier;
-
 	int damageOverride = -1;
-
 	bool executeDamage = true;
 
 	//Pre-damage additional effect
