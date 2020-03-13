@@ -340,7 +340,7 @@ bool Game::battleTrainer(Trainer* player, Trainer* opponent)
 			cout << "USE WHAT MOVE? (4 TO CANCEL)" << endl;
 			for (int i = 0; i < 4; i++) {
 				if (allyPokemon->getMoves()[i] != nullptr) {
-					cout << i << ": " << allyPokemon->getMoves()[i]->getName() << endl;
+					cout << i << ": " << allyPokemon->getMoves()[i]->getName() << endl << "\t[" << TypeData::getStringFromType(allyPokemon->getMoves()[i]->getMoveType()) << "]" << endl;
 				}
 			}
 
